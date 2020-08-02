@@ -1,0 +1,81 @@
+<!doctype html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+
+<body>
+    <marquee>
+        <div id="chicorita">TUUUU TIIIIII, TUUUU TIIIII, TA NANANA!!</div>
+    </marquee>
+
+    <h1 id=chico2>Olá, esse é o site do chico.</h1>
+    <h2>Aqui você encontra games, e fotos do meu peru. Seja bem vindo!</h2>
+
+    <img src="https://m.extra.globo.com/incoming/23267215-512-d8c/w367h550-PROP/pedro-roldan-2-jpeg2-.jpg" alt="Italian Trulli">
+    <p>Ui que delicia. Para ver mais desse boy magia, clique aqui</p>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <IMG SRC="giphy.gif">
+    </a>
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+        function myFunction() {
+            alert("Olá boy magia! Vem no Fran Boeza");
+        }
+    </script>
+    <script>
+        var col = 0;
+
+        function changeMarqueeColor() {
+            if (col == 0) {
+                document.getElementById("chicorita").style.color = "red";
+                col = 1;
+            } else {
+                document.getElementById("chicorita").style.color = "blue";
+                col = 0;
+            }
+        }
+        setInterval(changeMarqueeColor, 500);
+    </script>
+
+    <script>
+        var col = 0;
+
+        function changeMarqueeColor() {
+            if (col == 0) {
+                document.getElementById("chico2").style.color = "#660066";
+                col = 1;
+            } else {
+                document.getElementById("chico2").style.color = "#ff66b3";
+                col = 0;
+            }
+        }
+        setInterval(changeMarqueeColor, 200);
+    </script>
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+
+        <a href="#" class="button">Link Button</a>
+</iframe>
+
+
+</body>
+
+</html>
